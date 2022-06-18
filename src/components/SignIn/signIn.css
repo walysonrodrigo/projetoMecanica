@@ -83,7 +83,9 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 .backgroundMain{
-  background-color: #001E27;
+  background-image: url(/src/components/assets/fundoSignInSignUp.png);
+  background-position: relative;
+  background-repeat: no-repeat;
 }
 .boxForm{
   padding: 25px;
