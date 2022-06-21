@@ -83,7 +83,7 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 .backgroundMain{
-  background-image: url(/src/components/assets/Verde\ e\ Preto\ Padrão\ Reunião\ da\ Empresa\ Apresentação\ \(1\).png);
+  background-image: url(/src/components/assets/faixaBackground.png);
   background-position: relative;
   background-repeat: no-repeat;
 }
