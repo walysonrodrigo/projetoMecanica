@@ -107,8 +107,152 @@
         </nav>
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-            <h1 class="h2">Dashboard</h1>
+            <h1 class="h2">Ordem de serviços</h1>
             <!-- COLOCAR CONTEÚDO AQUI -->
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Nº: 200985734</h5>
+                  <form class="row g-3">
+                    <div class="col-md-6">
+                      <h6>TAG</h6>
+                      <input type="email" class="form-control" id="tag">
+                    </div>
+                    <div class="col-md-6">
+                      <h6>Descrição do equipamento</h6>
+                      <input type="password" class="form-control" id="descEquipamento">
+                    </div>
+                    <div class="col-12">
+                      <h6>Motivo</h6>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Escreva o motivo amigo pfvr"></textarea>
+                    </div>
+                    <div class="bd">
+                      <h6>Tipo de serviço:</h6>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Corretiva</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Preventiva</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Melhoria</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3">
+                        <label class="form-check-label" for="inlineRadio3">Melhoria</label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <h6>Descrição do serviço a ser realizado</h6>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder=""></textarea>
+                    </div>
+                    <div class="col-12">
+                      <h6>Descrição do serviço realizado</h6>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder=""></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-3">
+                          <h6>Inicio Ocorrencia</h6>
+                          <input type="datetime-local">
+                        </div>
+                        <div class="col-3">
+                          <h6>Inicio Conserto</h6>
+                          <input type="datetime-local">
+                        </div>
+                        <div class="col-3">
+                          <h6>Fim Conserto</h6>
+                          <input type="datetime-local">
+                        </div>
+                        <div class="col-3">
+                          <h6>Fim Ocorrencia</h6>
+                          <input type="datetime-local">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <h6>
+                        Peças Ultilizadas para o serviço
+                      </h6>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Código</th>
+                            <th scope="col">Descrição</th>
+                            <th scope="col">Quantidade</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <input type="text">
+                            </td>
+                            <td>
+                              <input type="text">
+                            </td>
+                            <td>
+                              <input type="text">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-6">
+                      <h6>
+                        Mão de obra
+                      </h6>
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Tempo</th>
+                            <th scope="col">Regime</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <input type="text">
+                            </td>
+                            <td>
+                              <input type="text">
+                            </td>
+                            <td>
+                              <input type="text">
+                            </td>
+                            <td>
+                              <input type="text">
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-3">
+                          <h6>Visto Executante</h6>
+                          <input type="text">
+                          <input type="datetime-local">
+                        </div>
+                        <div class="col-3">
+                          <h6>Visto Responsável</h6>
+                          <input type="text">
+                          <input type="datetime-local">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
           </div>
         </main>
       </div>
