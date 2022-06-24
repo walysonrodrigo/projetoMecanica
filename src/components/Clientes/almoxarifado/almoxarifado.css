@@ -11,7 +11,9 @@ body {
  * Sidebar
  */
 
-.sidebar {
+
+
+ .sidebar {
   position: fixed;
   top: 0;
   /* rtl:raw:
@@ -51,7 +53,7 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #2470dc;
+  color: #61825C;
 }
 
 .sidebar .nav-link:hover .feather,
@@ -70,13 +72,14 @@ body {
 .navbar-brand {
   padding-top: .75rem;
   padding-bottom: .75rem;
-  background-color: rgba(0, 0, 0, .25);
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+  background-color: #001E27;
+
 }
 
 .navbar .navbar-toggler {
   top: .25rem;
   right: 1rem;
+  
 }
 
 .navbar .form-control {
@@ -116,4 +119,8 @@ h2 {
 
 .form-control:hover {
   border: 1px solid #61825C;
+}
+.active_menu_link {
+  background: rgba(62, 161, 117, 0.3);
+    color: #61825C;
 }
