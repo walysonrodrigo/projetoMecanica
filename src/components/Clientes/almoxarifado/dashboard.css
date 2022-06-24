@@ -94,10 +94,26 @@ body {
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
 h2 {
-  color: #3ea175;
+  color: #61825C;
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 5px;
   padding: 0 10px;
   font-weight: 700;
+}
+.form-check-input:checked {
+  background-color: #61825C;
+  border-color: #61825C;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  color: #212529;
+  background-color: #fff;
+  border: 1px solid #001E27;
+}
+
+.form-control:hover {
+  border: 1px solid #61825C;
 }
