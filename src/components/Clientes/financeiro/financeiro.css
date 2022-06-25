@@ -117,3 +117,10 @@ h2 {
 .form-control:hover {
   border: 1px solid #61825C;
 }
+
+.card-waly {
+  border: 1px solid;
+  border-radius: 10px 10px 10px 10px;
+  background-color: #2470dc;
+  
+}
